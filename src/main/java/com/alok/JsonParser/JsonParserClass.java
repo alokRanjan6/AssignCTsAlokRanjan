@@ -181,7 +181,7 @@ public class JsonParserClass {
 					ps.setString(4, null);
 				}
 				if(duration > 4) { //populating the alert flag
-					ps.setString(5, "True");
+					ps.setString(5, "True");//Oracle 11g not supporting Boolean
 				} else {
 					ps.setString(5, "False");
 				}
