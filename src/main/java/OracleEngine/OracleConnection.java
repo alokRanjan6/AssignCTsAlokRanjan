@@ -11,7 +11,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Map;
 import java.util.ResourceBundle;
-
+/**
+* The OracleConnection creates database connection
+* 
+*
+* @author  Alok Ranjan
+* @version 1.0
+* @since   2014-09-07 
+*/
 public class OracleConnection 
 {
 	Connection connection;	
